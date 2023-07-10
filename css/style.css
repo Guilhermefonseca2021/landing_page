@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    border-bottom: 1px solid gray;
+}
+
+.slide {
+   
+    height: 300px;
+    color: white;
+}
+
+
+.content {
+    max-width: 35rem;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.vitrine {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction
+    justify-content: inherit;
+
+}
+
+.planos {
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.planos > img {
+    width: 300px;
+}
+
+footer {
+    background-color: gray;
+    border-top: #000757 1px solid;
+    text-align: center;
+    padding: 15px;
+}
